@@ -160,16 +160,19 @@ body {
      display: block;
  }
  
- .filler {
+ .aboutTitle {
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
      margin: 0;
-     height: 80vh;
+     height: 70vh;
  }
  
- 
+ .joker {
+     margin: 120px;
+     
+ }
  
  
  
