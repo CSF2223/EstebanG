@@ -10,6 +10,10 @@ white: #fff
 black: #000  
 */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Raleway:wght@400;500;600;800&display=swap');
+
+
 html {
     /* If we add any padding or border onto an element it does not affect the width of the element*/
     box-sizing: border-box;
@@ -165,18 +169,28 @@ body {
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     margin: 0;
-     height: 70vh;
+     margin: 20px;
+     height: 120vh;
  }
  
  .joker {
-     margin: 120px;
-     
+     margin: 30px;
+ }
+ 
+ .dogma img {
+     max-width: 100%;
+      border: 1rem #000;
+     border-radius: 4rem;
  }
  
  
  
  
+ 
+ .bunger {
+     font-family: Oswald;
+     font-size: 1.2rem;
+ }
  
  
  
@@ -212,4 +226,17 @@ body {
          max-width: 20%;
      }
      
+     .aboutTitle {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         max-width: 55%;
+         
+     }
+     
+     
+     
+     
+     
  }
+ 
