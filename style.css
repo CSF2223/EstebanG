@@ -169,28 +169,53 @@ body {
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     margin: 20px;
-     height: 120vh;
+     margin: 10px;
+     height: 105vh;
+     padding-top: 2rem;
  }
  
  .joker {
-     margin: 30px;
+     margin: 15px;
  }
  
  .dogma img {
      max-width: 100%;
       border: 1rem #000;
      border-radius: 4rem;
+     box-shadow: 0rem 0rem 0.5rem 0.5rem;
  }
- 
- 
- 
  
  
  .bunger {
      font-family: Oswald;
      font-size: 1.2rem;
  }
+ 
+ 
+ 
+ .dogma {
+  transform: matrix(1, -0.1, 0, 1, 0, 0);
+}
+ 
+ 
+ 
+ img:hover {
+  transform: scaleX(-1);
+}
+ 
+ 
+  .filler {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     height: 80vh;
+ }
+ 
+ 
+ 
+ 
  
  
  
